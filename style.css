@@ -1,14 +1,17 @@
 
 body{background-color: rgb(234, 230, 225);
-    margin-left:100px;
+    margin-left:200px;
     margin-right:100px;
     margin-top:100px;
+    position: absolute;
+    overflow:auto;
 
 }
 
 header {font-family: 'Poor Story', cursive;
        text-align: center;
        margin-bottom: 30px;
+       font-size: 35px;
        color:rgb(184, 137, 84);
 
 }
@@ -35,6 +38,7 @@ nav ul a{text-decoration:none;
 #aboutMe {font-family: 'Poor Story', cursive;
         font-size:20px;
         font-weight: bold;
+          
 }
 
 #aboutMe p {color :rgb(237, 223, 212);
@@ -44,10 +48,9 @@ nav ul a{text-decoration:none;
             text-align: center;}
 
 #aboutMe li {
-    padding-left: 350px;
-    padding-right: 350px;
     list-style-type:none;
 }
+
 
 #Video {font-family: 'Poor Story', cursive;
         font-size: 20px;
@@ -68,6 +71,13 @@ nav ul a{text-decoration:none;
         font-size: 40px;
         background-color: rgb(83, 70, 50);
         text-align: center;}
+
+#Connects li{
+    list-style-type:none ;
+    font-size : 20px;
+    font-weight: bold;
+}
+
 footer {
         padding-left: 10px;
         padding-top: 20px;
