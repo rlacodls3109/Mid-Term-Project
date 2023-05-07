@@ -1,17 +1,29 @@
 
-
-body{background-color: rgb(249, 240, 228);
-     margin-left:30px;
-     margin-right:30px;
+body{background-color: rgb(234, 230, 225);
+    margin-left:100px;
+    margin-right:100px;
 
 }
 
 header {font-family: 'Poor Story', cursive;
-
+       text-align: center;
 
 }
+
+nav { font-family: 'Bruno Ace', cursive;
+    right: 0; 
+    width: 1250px; }
+
+nav ul{
+    list-style:none;
+    border-top: 2px solid rgb(237, 195, 103);
+    border-bottom : 2px solid rgb(237, 195, 103);
+}
+
+nav ul li {display: inline;
+          margin-left :2em;}
+
+nav ul li a{text-decoration:none;
+            color: black;
+            line-height: 3em;}
 footer{font-family: 'Bruno Ace', cursive;}
-
-
-
-
