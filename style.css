@@ -13,13 +13,16 @@ header {font-family: 'Poor Story', cursive;
 
 }
 
+
 nav { font-family: 'Bruno Ace', cursive;
-    text-align: center; }
+    text-align: center;
+ }
 
 nav ul{
     border-top: 3px solid rgb(237, 195, 103);
     border-bottom : 3px solid rgb(237, 195, 103);
 }
+
 
 
 nav ul a{text-decoration:none;
@@ -30,14 +33,45 @@ nav ul a{text-decoration:none;
 
 
 #aboutMe {font-family: 'Poor Story', cursive;
-        padding-left: 15px;
-        padding-right: 15px;
         font-size:20px;
+        font-weight: bold;
 }
 
+#aboutMe p {color :rgb(237, 223, 212);
+            font-weight: bolder;
+            font-size: 40px;
+            background-color: rgb(83, 70, 50);
+            text-align: center;}
+
 #aboutMe li {
+    padding-left: 350px;
+    padding-right: 350px;
     list-style-type:none;
 }
-        
-footer {font-family:'Bruno Ace', cursive;
+
+#Video {font-family: 'Poor Story', cursive;
+        font-size: 20px;
+}
+
+#Video p{color :rgb(237, 223, 212);
+        font-weight: bolder;
+        font-size: 40px;
+        background-color: rgb(83, 70, 50);
+        text-align: center;}
+       
+#Connects {font-family: 'Poor Story', cursive;
+        font-size: 20px;
+    }
+
+#Connects p{color :rgb(237, 223, 212);
+        font-weight: bolder;
+        font-size: 40px;
+        background-color: rgb(83, 70, 50);
+        text-align: center;}
+footer {
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: lightgray;
+        font-family:'Bruno Ace', cursive;
         font-size: small;}
