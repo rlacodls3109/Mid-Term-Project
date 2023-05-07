@@ -2,28 +2,42 @@
 body{background-color: rgb(234, 230, 225);
     margin-left:100px;
     margin-right:100px;
+    margin-top:100px;
 
 }
 
 header {font-family: 'Poor Story', cursive;
        text-align: center;
+       margin-bottom: 30px;
+       color:rgb(184, 137, 84);
 
 }
 
 nav { font-family: 'Bruno Ace', cursive;
-    right: 0; 
-    width: 1250px; }
+    text-align: center; }
 
 nav ul{
-    list-style:none;
-    border-top: 2px solid rgb(237, 195, 103);
-    border-bottom : 2px solid rgb(237, 195, 103);
+    border-top: 3px solid rgb(237, 195, 103);
+    border-bottom : 3px solid rgb(237, 195, 103);
 }
 
-nav ul li {display: inline;
-          margin-left :2em;}
 
-nav ul li a{text-decoration:none;
-            color: black;
-            line-height: 3em;}
-footer{font-family: 'Bruno Ace', cursive;}
+nav ul a{text-decoration:none;
+        color: rgb(152, 91, 41);
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 3em;}
+
+
+#aboutMe {font-family: 'Poor Story', cursive;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size:20px;
+}
+
+#aboutMe li {
+    list-style-type:none;
+}
+        
+footer {font-family:'Bruno Ace', cursive;
+        font-size: small;}
